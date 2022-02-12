@@ -37,7 +37,7 @@
                             <el-timeline-item>
                                 <el-card>
                                     <el-image :src="img10" @load="onImgLoad"></el-image>
-                                    <h3>This is a photo you took on desember 2021 when you have a long hair and nice eyes till now btw </h3>
+                                    <h3>This is a photo you took on December 2020 when you have a long hair and nice eyes till now btw </h3>
                                 </el-card>
                             </el-timeline-item>
 
