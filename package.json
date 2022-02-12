@@ -2,8 +2,8 @@
   "name": "birthday_webpage",
   "version": "0.2.0",
   "engines": {
-    "node": "16.x",
-    "npm":  "6.x"
+    "node": "14.17",
+    "npm": "6.x"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
