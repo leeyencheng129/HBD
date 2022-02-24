@@ -43,7 +43,7 @@
                             Deploy your birthday gift to Website so you can see
                         </p>
                         <p>
-                            I hope you like it
+                            I hope you like it 🤍
                         </p>
                         <p style="font-size: 0.25rem">
                             Deep down from my heart, I Miss You. a lot. and somehow Naneun Jhoahe - PBK
