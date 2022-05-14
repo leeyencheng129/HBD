@@ -10,24 +10,24 @@
         name: 'Landing',
         data() {
             let landingMessages = [
-                "This is more than a website",
-                "It's about you and your 23 birthday..",
-                "About celebrations and wishes",
-                "Are you ready for the experience ?",
-                "Welcome to Your Birthday Gift Web"
+                "一年中總有幾個日子難忘",
+                "一生中總有幾個人值得珍惜",
+                "在這個特別的日子裡",
+                "懿賢，祝你生日快樂"
+               
             ];
             return {
                 message: "",
                 messages: landingMessages,
                 show: true,
-                showButton: false,
+              
                 count: 0,
                 maxCount: landingMessages.length - 1
             }
         },
         mounted: function () {
             this.message = this.messages[this.count];
-            setTimeout(this.fadeText, 2000);
+            setTimeout(this.fadeText, 1250);
         },
         methods: {
             fadeText() {
@@ -39,10 +39,10 @@
             showText() {
                 this.show = true;
                 if (this.count !== this.maxCount) {
-                    setTimeout(this.fadeText, 2250);
+                    setTimeout(this.fadeText, 1250);
                 } else {
-                    this.showButton = true;
-                    setTimeout(() =>this.$router.push('/home'), 3000);
+                  
+                    setTimeout(() =>this.$router.push('/home'), 2000);
                 }
             }
         }
@@ -54,9 +54,12 @@
     .landing {
         line-height: 80vh;
         font-size: 3vw;
+        background: #2d2929;
     }
 
     .landing_text {
         vertical-align: baseline;
+       font-family: 'Noto Serif TC', serif;
+       color:#fff;
     }
 </style>

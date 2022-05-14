@@ -26,7 +26,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.14.1",
+    "sass": "^1.51.0",
     "sass-loader": "^9.0.3",
     "ss-loader": "^1.0.1",
     "style-loader": "^1.2.1",

@@ -31,7 +31,7 @@
                     <el-col :xs="16" :sm="16" :md="12" :lg="6" :xl="6">
                         <transition name="slide-fade">
                             <el-button @click="goMessages()" class="home_button" plain type="danger"
-                                       icon="el-icon-ice-cream-round" v-if="showButtons">
+                                       icon="el-icon-message" v-if="showButtons">
                                 Messages
                             </el-button>
                         </transition>
@@ -127,7 +127,7 @@
 
     .home_container {
         height: 100vh;
-        background: #fde2e2;
+        background: #2d2929;
         position: relative;
     }
 

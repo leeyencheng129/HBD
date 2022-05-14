@@ -4,7 +4,7 @@
             <vue-page-transition name="fade">
                 <router-view class="view"></router-view>
             </vue-page-transition>
-            <el-footer>Happy Birthday Samantha Ayu Dian Narwastu</el-footer>
+            <el-footer>Happy Birthday To My Dear Ou</el-footer>
         </el-container>
     </div>
 </template>
@@ -24,6 +24,7 @@
         color: #2c3e50;
         height: 100vh;
         width: 100vw;
+ background: #2d2929;
     }
 
     #container {
@@ -32,7 +33,7 @@
 
     /* Global footer */
     .el-footer {
-        background-color: #dd6161;
+        background-color: #2d2929;
         color: #F5F7FA;
         text-align: center;
         line-height: 60px;
@@ -57,10 +58,10 @@
     }
 
     .el-loading-spinner .el-loading-text {
-        color : #dd6161 !important;
+        color : #2d2929 !important;
     }
 
     .el-loading-spinner .path{
-        stroke : #dd6161 !important;
+        stroke : #2d2929 !important;
     }
 </style>

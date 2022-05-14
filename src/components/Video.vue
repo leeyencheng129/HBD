@@ -23,7 +23,7 @@
         name: "Video",
         data(){
             return {
-                videoId : 'YGRtBJuj8oA'
+                videoId : '6jkQQv2E3i8'
             }
         },
         methods: {
