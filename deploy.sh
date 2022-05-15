@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:leeyencheng129/HBD_TEST.git master:gh-pages
+git push -f git@github.com:leeyencheng129/HBD.git master:gh-pages
 
 cd -
